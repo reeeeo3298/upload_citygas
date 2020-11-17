@@ -1,0 +1,156 @@
+@charset "utf-8";
+body{
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif !important;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #333;
+    display: block;
+    width: 100%;
+    .header-block{
+        width: 100%;
+        display: block;
+        position: relative;
+        h1{
+            width: 12%;
+            text-align: left;
+            margin-top: 0;
+            padding: 10px 0px 10px 40px;
+            display: inline-block;
+            img{
+                width: 100%;
+            }
+        }
+        .header-list{
+            list-style: none;
+            display: inline-block;
+            margin-left: 3em;
+            li{
+                a{
+                    color: white;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+        .login_info {
+                position: absolute;
+                top: 30px;
+                right: 30px;
+            p{
+                color: white;
+            }
+        }
+    }
+}
+
+
+.container{
+    width: 90%;
+    h1{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 45px;
+    text-align: center; 
+    }
+}
+
+.detail_btn_block,.add_btn_block {
+    display: inline-block;
+}
+
+.content-block {
+    width: 100%;
+    .img-block {
+        display: inline-block;
+        width: 48%;
+        position: relative;
+        figure{
+            img{
+                width: 100%;
+            }
+        }
+        .conplete_btn_block{
+            text-align: center;
+            padding-top: 40px;
+            .complete_btn{
+                width: 60%;
+                padding: 20px;
+                font-size: 4rem;
+            }
+        }
+        .hold_btn_block{
+            text-align: center;
+            padding-top: 40px;
+            .hold_btn{
+                width: 60%;
+                padding: 20px;
+                font-size: 4rem;
+            }
+        }
+    }
+    .form-block {
+        display: inline-block;
+        vertical-align: top;
+        width: 51%;
+        padding-left: 65px;
+        .table{
+            tbody{
+                tr{
+                    th:first-child{
+                      width: 40%;  
+                    }
+                    td{
+                        input{
+                            width: 100%;
+                        }
+                    }
+                }
+                tr:first-child{
+                    th{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal-dialog {
+    width: 65%;
+    .modal-content{
+        h3{
+            text-align: center;
+        }
+    }
+    table{
+        tr:first-child{
+            th{
+                text-align: center;   
+            }
+        }
+        tr{
+            th:first-child{
+                width: 25%;
+            }
+        }
+    }
+}
+
+.customer_manegement_block{
+    margin-bottom: 0;
+    .btn_block{
+        text-align: center;
+    }
+    .form-inline{
+        position: relative;
+        top:-10px;
+    }
+    .col-sm-5.form-inline.name_form_width {
+        width: auto;
+    }
+}
+.middle_block{
+    padding: 10px 0 10px 0;
+}

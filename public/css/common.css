@@ -1,0 +1,104 @@
+@charset "UTF-8";
+body {
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif !important;
+  margin: 0 auto; }
+
+header {
+  background-color: #333;
+  display: block;
+  width: 100%; }
+  header .header-block {
+    width: 100%;
+    display: block;
+    position: relative; }
+    header .header-block h1 {
+      width: 12%;
+      text-align: left;
+      margin-top: 0;
+      padding: 10px 0px 10px 40px;
+      display: inline-block; }
+      header .header-block h1 img {
+        width: 100%; }
+    header .header-block .header-list {
+      list-style: none;
+      display: inline-block;
+      margin-left: 3em; }
+      header .header-block .header-list li a {
+        color: white;
+        font-size: 1.8rem; }
+    header .header-block .login_info {
+      position: absolute;
+      top: 30px;
+      right: 30px; }
+      header .header-block .login_info p {
+        color: white; }
+
+.container {
+  width: 90%; }
+  .container h1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 45px;
+    text-align: center; }
+
+.detail_btn_block, .add_btn_block {
+  display: inline-block; }
+
+.content-block {
+  width: 100%; }
+  .content-block .img-block {
+    display: inline-block;
+    width: 48%;
+    position: relative; }
+    .content-block .img-block figure img {
+      width: 100%; }
+    .content-block .img-block .conplete_btn_block {
+      text-align: center;
+      padding-top: 40px; }
+      .content-block .img-block .conplete_btn_block .complete_btn {
+        width: 60%;
+        padding: 20px;
+        font-size: 4rem; }
+    .content-block .img-block .hold_btn_block {
+      text-align: center;
+      padding-top: 40px; }
+      .content-block .img-block .hold_btn_block .hold_btn {
+        width: 60%;
+        padding: 20px;
+        font-size: 4rem; }
+  .content-block .form-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 51%;
+    padding-left: 65px; }
+    .content-block .form-block .table tbody tr th:first-child {
+      width: 40%; }
+    .content-block .form-block .table tbody tr td input {
+      width: 100%; }
+    .content-block .form-block .table tbody tr:first-child th {
+      text-align: center; }
+
+.modal-dialog {
+  width: 65%; }
+  .modal-dialog .modal-content h3 {
+    text-align: center; }
+  .modal-dialog table tr:first-child th {
+    text-align: center; }
+  .modal-dialog table tr th:first-child {
+    width: 25%; }
+
+.customer_manegement_block {
+  margin-bottom: 0; }
+  .customer_manegement_block .btn_block {
+    text-align: center; }
+  .customer_manegement_block .form-inline {
+    position: relative;
+    top: -10px; }
+  .customer_manegement_block .col-sm-5.form-inline.name_form_width {
+    width: auto; }
+
+.middle_block {
+  padding: 10px 0 10px 0; }
+
+/*# sourceMappingURL=common.css.map */
